@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHUN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    
+
+        #container {
+            max-width: 1920px;
+        }
+
+        #logo {}
+
+        header {}
+
+        header nav {
+            /* text-align: center; */
+     }
+
+        header nav a {}
+
+        #logo h1 {
+            /* font-family merriweather from Google Fonts */
+            font-family: 'merriweather', serif;
+            font-weight: 600;
+            /* font-size: 1em; */
+            /* text-align: center; */
+
+        }
+
+         @media (min-width: 0px) and (max-width: 768px) {
+            div#splash-image {
+                background-image: url('./768_assets/fashun_banner_768.png');
+                background-size: cover;
+                /* background-repeat: no-repeat; */
+
+                width: 100%;
+                height: 50vh;
+                background-position: top left;
+            }
+            h1{
+            font-size: 10vw;
+            text-align: center;
+            }
+            div#logo{
+                text-align: center;
+                font-size: 3em;
+                position: relative;
+            }
+            div#picture{
+                 width: 100%;
+                 height: 10px;
+                 display: inline-block;
+            }
+            div#picture{
+                text-align: center;
+                 font-size: 2em;
+                
+            }
+            div#hamburger{
+                 /* float: right; */
+                 border:1px solid red;
+                 position: absolute;
+                 top: 5%;
+                 right: 5%;
+                 
+                
+            }
+            div#hamburger img{
+                height:70px;
+                width: 5vw
+            }
+            div.bgwrapper {
+                background: linear-gradient(to bottom right, orange,white,white);
+                margin: 3em;
+                border: 10px;
+                bottom: 10px;
+                text-align: center;
+            }
+        }
+       
+           
+
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <h1>FASHUN</h1>
+                <div id="hamburger">
+                    <img src="./768_assets/Hamburger_menu.png"/>
+                 </div>
+                
+            </div>
+            <nav>
+                <a href="">Fall Fashions</a>
+                <a href="">Shop Now</a>
+                <a href="">Fashun Club</a>
+            </nav>
+        </header>
+        <div id="splash-image"></div>
+       
+        
+       
+        <main>
+            <div id="picture">
+                <div class="bgwrapper">
+                   
+                        <img src="./768_assets/fashun_jacket_768.png" alt="rp" width="400" height="300"/>
+                         
+                        <p>SHOP WOMENS OUTWEAR</p>
+                </div>
+            </div>
+            
+        </main>
+    </div>
+</body>
+
+</html>
